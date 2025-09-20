@@ -3,3 +3,20 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.badge {
+  background-color: #ffc107; /* A nice yellow/gold color */
+  color: black;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.visited-card {
+  border-color: #4ade80;
+  box-shadow: 0px 0px 15px 0px rgba(74, 222, 128, 0.4);
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
